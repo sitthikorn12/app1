@@ -1,16 +1,13 @@
 import React from "react";
-import { Header,Content,Footer  } from "./func-components"
-import Calendar from "./class-components";
+import logo from "./logo.svg";
+import "./App.css";
+import './style.css';
+import Button from './class-components';
 
 function App() {
-  return (
-    <>
-    <Header/>
-    <p><center><Calendar/></center></p>
-    <Content/>
-    <Footer/> 
-    </>
-  ) 
+  return<>
+    <Button/>
+  </>
 }
 
 export default App;
