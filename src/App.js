@@ -1,11 +1,8 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import './style.css';
-import {EventData2} from "./event-data";
+import RefsArray from "./refs-array";
 
 function App() {
-  return <EventData2/>
+  return <RefsArray/>
 }
 
 export default App;
