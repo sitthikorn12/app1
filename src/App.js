@@ -1,7 +1,6 @@
-import Router2 from './router2'
+import React from 'react'
+import Router3 from './router3'
 
-function App() {
-  return <Router2/>
+export default function App() {
+  return <Router3 />
 }
-
-export default App;
